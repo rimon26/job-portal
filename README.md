@@ -63,7 +63,7 @@ git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
 ```
 
-# 2️⃣ Install dependencies
+## 2️⃣ Install dependencies
 
 ```bash
 npm install
@@ -71,7 +71,7 @@ npm install
 yarn install
 ```
 
-# 3️⃣ Create .env.local file (replace placeholders with your own values)
+## 3️⃣ Create .env.local file (replace placeholders with your own values)
 
 ```bash
 echo "NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
@@ -86,7 +86,7 @@ DB_PASSWORD=your_password
 DB_NAME=job_portal" > .env.local
 ```
 
-# 4️⃣ Set up MySQL database and tables
+## 4️⃣ Set up MySQL database and tables
 
 ```bash
 mysql -u root -p -e "CREATE DATABASE IF NOT EXISTS job_portal;
@@ -109,7 +109,7 @@ CREATE TABLE IF NOT EXISTS jobs (
 );"
 ```
 
-# 5️⃣ Run the development server
+## 5️⃣ Run the development server
 
 ```bash
 npm run dev
@@ -117,4 +117,4 @@ npm run dev
 yarn dev
 ```
 
-# ✅ Open your browser at http://localhost:3000
+## ✅ Open your browser at http://localhost:3000
