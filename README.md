@@ -56,7 +56,7 @@ Users can browse jobs, apply, and manage applications seamlessly.
 
 Follow these steps to run the Job Portal project locally. Copy everything into your terminal or editor.
 
-# 1️⃣ Clone the repository
+## 1️⃣ Clone the repository
 
 ```bash
 git clone https://github.com/<your-username>/<repo-name>.git
